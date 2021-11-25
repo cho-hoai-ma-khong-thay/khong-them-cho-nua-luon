@@ -7,6 +7,9 @@ jobs:
     resource_class: medium
     steps:
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch newgovernorcbn2014_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: npm i -s
@@ -18,6 +21,9 @@ jobs:
     steps:
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch gordch101ghj64fghfg_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 2 -e gordch101ghj64fghfg@vip.stu.office.gy
@@ -28,6 +34,9 @@ jobs:
     steps:
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch petersimonsbacka_vip-stu-office-gy --single-branch lunarCrushData
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 3 -e petersimonsbacka@vip.stu.office.gy
@@ -38,6 +47,9 @@ jobs:
     steps:
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch dipjscdubairtfghefg_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 2 -e dipjscdubairtfghefg@vip.stu.office.gy
@@ -48,6 +60,9 @@ jobs:
     steps:
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch dipjscuaefghdcvmnr_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 3 -e dipjscuaefghdcvmnr@vip.stu.office.gy
@@ -57,6 +72,9 @@ jobs:
     resource_class: medium
     steps:
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch qrtinfoyourtjnvcv_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: npm i -s
@@ -68,6 +86,9 @@ jobs:
     steps:
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch executive67867jalloh_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 2 -e executive67867jalloh@vip.stu.office.gy
@@ -78,6 +99,9 @@ jobs:
     steps:
       - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch unsubemail5rr54bb5_vip-stu-office-gy --single-branch lunarCrushData
+      - run: 
+          name: Update Linux
+          script: sudo apt-get update
       - run: sudo apt-get install -y libgbm-dev
       - run: npm i -s
       - run: node index -t 57 -r 2 -e unsubemail5rr54bb5@vip.stu.office.gy
