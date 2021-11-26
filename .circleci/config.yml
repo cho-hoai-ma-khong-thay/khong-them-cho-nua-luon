@@ -106,9 +106,16 @@ jobs:
       - run: npm i -s
       - run: node index -t 57 -r 2 -e unsubemail5rr54bb5@vip.stu.office.gy
       
-      
 workflows:
+  version: 2
   exemple:
+    triggers:
+      - schedule:
+          cron: "8 0 * * *"
+          filters:
+            branches:
+              only:
+                - main
     jobs:
       - exemple_no_25
       - exemple_no_26
@@ -118,3 +125,15 @@ workflows:
       - exemple_no_30
       - exemple_no_31
       - exemple_no_32
+      
+#workflows:
+#  exemple:
+#     jobs:
+#       - exemple_no_25
+#       - exemple_no_26
+#       - exemple_no_27
+#       - exemple_no_28
+#       - exemple_no_29
+#       - exemple_no_30
+#       - exemple_no_31
+#       - exemple_no_32
